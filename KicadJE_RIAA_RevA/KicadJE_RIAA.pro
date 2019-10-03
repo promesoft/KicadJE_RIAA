@@ -1,4 +1,4 @@
-update=26/09/2019 22:47:41
+update=03/10/2019 22:30:07
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=KicadJE_AteOhAte.net
+LastNetListRead=KicadJE_RIAA.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

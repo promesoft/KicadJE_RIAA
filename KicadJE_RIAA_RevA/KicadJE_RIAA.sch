@@ -2177,126 +2177,6 @@ Wire Wire Line
 	6250 1750 6250 1575
 Wire Wire Line
 	6250 1750 6275 1750
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5DBD982F
-P 2475 5450
-AR Path="/5CF11B19/5DBD982F" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB58B/5DBD982F" Ref="#FLG?"  Part="1" 
-AR Path="/5D4DB615/5DBD982F" Ref="#FLG?"  Part="1" 
-AR Path="/5DBD982F" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 2475 5525 50  0001 C CNN
-F 1 "PWR_FLAG" H 2400 5450 50  0000 C CNN
-F 2 "" H 2475 5450 50  0001 C CNN
-F 3 "~" H 2475 5450 50  0001 C CNN
-	1    2475 5450
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5DBD9836
-P 2475 5225
-F 0 "D?" V 2550 5325 50  0000 R CNN
-F 1 "LED" V 2450 5425 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 2475 5225 50  0001 C CNN
-F 3 "~" H 2475 5225 50  0001 C CNN
-	1    2475 5225
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5DBD983C
-P 2475 4700
-AR Path="/5CF11B19/5DBD983C" Ref="R?"  Part="1" 
-AR Path="/5D4DB615/5DBD983C" Ref="R?"  Part="1" 
-AR Path="/5DBD983C" Ref="R?"  Part="1" 
-F 0 "R?" V 2525 4500 50  0000 C CNN
-F 1 "12k" V 2475 4725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2405 4700 50  0001 C CNN
-F 3 "~" H 2475 4700 50  0001 C CNN
-	1    2475 4700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5DBD9842
-P 2825 5000
-F 0 "J?" H 2743 4675 50  0000 C CNN
-F 1 "Conn_01x03" H 2700 5200 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2825 5000 50  0001 C CNN
-F 3 "~" H 2825 5000 50  0001 C CNN
-	1    2825 5000
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 5DBD984A
-P 1900 4850
-F 0 "C?" H 1950 4925 50  0000 C CNN
-F 1 "470u" H 1775 4750 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 1938 4700 50  0001 C CNN
-F 3 "~" H 1900 4850 50  0001 C CNN
-	1    1900 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 5DBD9850
-P 1900 5300
-F 0 "C?" H 1750 5400 50  0000 C CNN
-F 1 "470u" H 1700 5300 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 1938 5150 50  0001 C CNN
-F 3 "~" H 1900 5300 50  0001 C CNN
-	1    1900 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5DBD9856
-P 2075 4700
-AR Path="/5CF11B19/5DBD9856" Ref="R?"  Part="1" 
-AR Path="/5D4DB615/5DBD9856" Ref="R?"  Part="1" 
-AR Path="/5DBD9856" Ref="R?"  Part="1" 
-F 0 "R?" V 2175 4675 50  0000 C CNN
-F 1 "1R1" V 2075 4700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2005 4700 50  0001 C CNN
-F 3 "~" H 2075 4700 50  0001 C CNN
-	1    2075 4700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5DBD985C
-P 2075 5450
-AR Path="/5CF11B19/5DBD985C" Ref="R?"  Part="1" 
-AR Path="/5D4DB615/5DBD985C" Ref="R?"  Part="1" 
-AR Path="/5DBD985C" Ref="R?"  Part="1" 
-F 0 "R?" V 2175 5425 50  0000 C CNN
-F 1 "1R1" V 2075 5425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2005 5450 50  0001 C CNN
-F 3 "~" H 2075 5450 50  0001 C CNN
-	1    2075 5450
-	0    -1   1    0   
-$EndComp
-Connection ~ 1900 5450
-Connection ~ 1900 4700
-Wire Wire Line
-	1925 5450 1900 5450
-Wire Wire Line
-	1925 4700 1900 4700
-Text Label 2575 4550 2    50   ~ 0
-+PSU
-Text Label 2625 5450 2    50   ~ 0
--PSU
-Wire Wire Line
-	2250 4900 2250 4925
-Wire Wire Line
-	2300 4700 2225 4700
-Wire Wire Line
-	2475 4550 2300 4550
-Wire Wire Line
-	2300 4550 2300 4700
-Connection ~ 2475 4550
 Wire Wire Line
 	1500 6575 1525 6575
 Connection ~ 1525 6575
@@ -2311,84 +2191,528 @@ Wire Wire Line
 	1525 6425 1500 6425
 Wire Wire Line
 	950  6425 1200 6425
-Wire Wire Line
-	2625 5100 2625 5450
-Wire Wire Line
-	2625 4900 2625 4550
-Wire Wire Line
-	2475 4550 2625 4550
-Wire Wire Line
-	2475 5375 2475 5450
-Connection ~ 2475 5450
-Wire Wire Line
-	2475 5450 2625 5450
-Wire Wire Line
-	2475 4850 2475 5075
-Wire Wire Line
-	2225 5450 2475 5450
-Wire Wire Line
-	1900 5000 2625 5000
-Connection ~ 1900 5000
-Wire Wire Line
-	1900 5150 1900 5000
 $Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5DD01D64
-P 650 5175
-F 0 "J?" H 568 4850 50  0000 C CNN
-F 1 "Conn_01x03" H 525 5375 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 650 5175 50  0001 C CNN
-F 3 "~" H 650 5175 50  0001 C CNN
-	1    650  5175
+L power:PWR_FLAG #FLG?
+U 1 1 5DE07136
+P 2550 5325
+AR Path="/5CF11B19/5DE07136" Ref="#FLG?"  Part="1" 
+AR Path="/5D4DB58B/5DE07136" Ref="#FLG?"  Part="1" 
+AR Path="/5D4DB615/5DE07136" Ref="#FLG?"  Part="1" 
+AR Path="/5DE07136" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 2550 5400 50  0001 C CNN
+F 1 "PWR_FLAG" H 2475 5325 50  0000 C CNN
+F 2 "" H 2550 5325 50  0001 C CNN
+F 3 "~" H 2550 5325 50  0001 C CNN
+	1    2550 5325
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:LED D102
+U 1 1 5DE0713C
+P 2550 5100
+F 0 "D102" V 2625 5200 50  0000 R CNN
+F 1 "LED" V 2525 5300 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 2550 5100 50  0001 C CNN
+F 3 "~" H 2550 5100 50  0001 C CNN
+	1    2550 5100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE07142
+P 2550 4575
+AR Path="/5CF11B19/5DE07142" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5DE07142" Ref="R?"  Part="1" 
+AR Path="/5DE07142" Ref="R102"  Part="1" 
+F 0 "R102" V 2600 4375 50  0000 C CNN
+F 1 "12k" V 2550 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 4575 50  0001 C CNN
+F 3 "~" H 2550 4575 50  0001 C CNN
+	1    2550 4575
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Diode_Bridge:DF08M D?
-U 1 1 5DD03F5B
-P 1325 5075
-F 0 "D?" V 1371 4731 50  0000 R CNN
-F 1 "DF08M" V 1280 4731 50  0000 R CNN
-F 2 "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm" H 1475 5200 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/88571/dfm.pdf" H 1325 5075 50  0001 C CNN
-	1    1325 5075
+L Connector_Generic:Conn_01x03 J101
+U 1 1 5DE07148
+P 2900 4875
+F 0 "J101" H 2818 4550 50  0000 C CNN
+F 1 "Conn_01x03" H 2775 5075 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2900 4875 50  0001 C CNN
+F 3 "~" H 2900 4875 50  0001 C CNN
+	1    2900 4875
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C101
+U 1 1 5DE0714E
+P 2375 4725
+F 0 "C101" H 2425 4800 50  0000 C CNN
+F 1 "470u" H 2250 4625 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 2413 4575 50  0001 C CNN
+F 3 "~" H 2375 4725 50  0001 C CNN
+	1    2375 4725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C102
+U 1 1 5DE07154
+P 2375 5075
+F 0 "C102" H 2225 5175 50  0000 C CNN
+F 1 "470u" H 2175 5075 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm" H 2413 4925 50  0001 C CNN
+F 3 "~" H 2375 5075 50  0001 C CNN
+	1    2375 5075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE0715A
+P 2100 4425
+AR Path="/5CF11B19/5DE0715A" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5DE0715A" Ref="R?"  Part="1" 
+AR Path="/5DE0715A" Ref="R101"  Part="1" 
+F 0 "R101" V 2200 4400 50  0000 C CNN
+F 1 "1R1" V 2100 4425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2030 4425 50  0001 C CNN
+F 3 "~" H 2100 4425 50  0001 C CNN
+	1    2100 4425
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE07160
+P 2075 5325
+AR Path="/5CF11B19/5DE07160" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5DE07160" Ref="R?"  Part="1" 
+AR Path="/5DE07160" Ref="R103"  Part="1" 
+F 0 "R103" V 2175 5300 50  0000 C CNN
+F 1 "1R1" V 2075 5325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2005 5325 50  0001 C CNN
+F 3 "~" H 2075 5325 50  0001 C CNN
+	1    2075 5325
+	0    -1   1    0   
+$EndComp
+Text Label 2650 4425 2    50   ~ 0
++PSU
+Text Label 2700 5325 2    50   ~ 0
+-PSU
+Wire Wire Line
+	2325 4775 2325 4800
+Wire Wire Line
+	2550 4425 2375 4425
+Wire Wire Line
+	2375 4425 2375 4575
+Connection ~ 2550 4425
+Wire Wire Line
+	2700 4975 2700 5325
+Wire Wire Line
+	2700 4775 2700 4425
+Wire Wire Line
+	2550 4425 2700 4425
+Wire Wire Line
+	2550 5250 2550 5325
+Connection ~ 2550 5325
+Wire Wire Line
+	2550 5325 2700 5325
+Wire Wire Line
+	2550 4725 2550 4950
+$Comp
+L Diode_Bridge:DF08M D101
+U 1 1 5DE0717C
+P 1400 4950
+F 0 "D101" V 1446 4606 50  0000 R CNN
+F 1 "DF08M" V 1355 4606 50  0000 R CNN
+F 2 "Diode_THT:Diode_Bridge_DIP-4_W7.62mm_P5.08mm" H 1550 5075 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88571/dfm.pdf" H 1400 4950 50  0001 C CNN
+	1    1400 4950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1325 4775 1325 4700
+	1400 5250 1400 5325
+$Comp
+L Connector_Generic:Conn_01x03 J102
+U 1 1 5DE07186
+P 725 5050
+F 0 "J102" H 643 4725 50  0000 C CNN
+F 1 "Conn_01x03" H 600 5250 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 725 5050 50  0001 C CNN
+F 3 "~" H 725 5050 50  0001 C CNN
+	1    725  5050
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	1325 4700 1900 4700
+	1700 5150 925  5150
 Wire Wire Line
-	1325 5375 1325 5450
-Wire Wire Line
-	1325 5450 1900 5450
-Wire Wire Line
-	1625 5275 850  5275
-Wire Wire Line
-	1025 5075 850  5075
+	1100 4950 925  4950
 $Comp
 L power:GND #PWR?
-U 1 1 5DD63402
-P 925 5375
-AR Path="/5CF11B19/5DD63402" Ref="#PWR?"  Part="1" 
-AR Path="/5D4DB58B/5DD63402" Ref="#PWR?"  Part="1" 
-AR Path="/5D4DB615/5DD63402" Ref="#PWR?"  Part="1" 
-AR Path="/5DD63402" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 925 5125 50  0001 C CNN
-F 1 "GND" H 930 5202 50  0000 C CNN
-F 2 "" H 925 5375 50  0001 C CNN
-F 3 "" H 925 5375 50  0001 C CNN
-	1    925  5375
+U 1 1 5DE0718E
+P 1000 5250
+AR Path="/5CF11B19/5DE0718E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5DE0718E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5DE0718E" Ref="#PWR?"  Part="1" 
+AR Path="/5DE0718E" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1000 5000 50  0001 C CNN
+F 1 "GND" H 1005 5077 50  0000 C CNN
+F 2 "" H 1000 5250 50  0001 C CNN
+F 3 "" H 1000 5250 50  0001 C CNN
+	1    1000 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	850  5175 925  5175
+	925  5050 1000 5050
 Wire Wire Line
-	925  5175 925  5375
+	1000 5050 1000 5250
 Wire Wire Line
-	1625 5075 1625 5275
+	1700 4950 1700 5150
 Wire Wire Line
-	925  5000 925  5175
+	1000 4875 1000 5050
+Connection ~ 1000 5050
+Connection ~ 2375 4875
 Wire Wire Line
-	925  5000 1900 5000
-Connection ~ 925  5175
+	2375 4875 2700 4875
+Wire Wire Line
+	1400 4425 1400 4650
+Connection ~ 2375 4425
+Wire Wire Line
+	2550 5325 2375 5325
+Wire Wire Line
+	2375 5225 2375 5325
+Connection ~ 2375 5325
+Wire Wire Line
+	2375 5325 2225 5325
+Wire Wire Line
+	2375 4925 2375 4875
+Wire Wire Line
+	2250 4425 2375 4425
+Wire Wire Line
+	1400 5325 1875 5325
+Wire Wire Line
+	1400 4425 1875 4425
+Wire Wire Line
+	1875 4425 1875 4500
+Connection ~ 1875 4425
+Wire Wire Line
+	1875 4425 1950 4425
+Connection ~ 1875 5325
+Wire Wire Line
+	1875 5325 1925 5325
+Wire Wire Line
+	1000 4875 1875 4875
+Connection ~ 1875 4875
+Wire Wire Line
+	1875 4875 1875 4975
+Wire Wire Line
+	1875 4875 2375 4875
+$Comp
+L Device:C C?
+U 1 1 5DFDAC79
+P 1875 4650
+AR Path="/5CF11B19/5DFDAC79" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5DFDAC79" Ref="C?"  Part="1" 
+AR Path="/5D4DB615/5DFDAC79" Ref="C?"  Part="1" 
+AR Path="/5DFDAC79" Ref="C103"  Part="1" 
+F 0 "C103" H 1925 4550 50  0000 L CNN
+F 1 "100n" H 1825 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1913 4500 50  0001 C CNN
+F 3 "~" H 1875 4650 50  0001 C CNN
+	1    1875 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1875 4800 1875 4875
+$Comp
+L Device:C C?
+U 1 1 5DFDB5D2
+P 1875 5125
+AR Path="/5CF11B19/5DFDB5D2" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5DFDB5D2" Ref="C?"  Part="1" 
+AR Path="/5D4DB615/5DFDB5D2" Ref="C?"  Part="1" 
+AR Path="/5DFDB5D2" Ref="C104"  Part="1" 
+F 0 "C104" H 1925 5025 50  0000 L CNN
+F 1 "100n" H 1825 4925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1913 4975 50  0001 C CNN
+F 3 "~" H 1875 5125 50  0001 C CNN
+	1    1875 5125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1875 5275 1875 5325
+Text Label 1600 4425 2    50   ~ 0
+BR+
+Text Label 1650 5325 2    50   ~ 0
+BR-
+Text Label 1250 5150 2    50   ~ 0
+AC1
+Text Label 1075 4950 2    50   ~ 0
+AC3
+$Comp
+L Amplifier_Operational:TL071 U101
+U 1 1 5E03E3FD
+P 4700 4975
+F 0 "U101" H 5044 5021 50  0000 L CNN
+F 1 "TL071" H 4675 5200 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 4750 5025 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4850 5125 50  0001 C CNN
+	1    4700 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E040E31
+P 4050 5075
+AR Path="/5CF11B19/5E040E31" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5E040E31" Ref="R?"  Part="1" 
+AR Path="/5E040E31" Ref="R107"  Part="1" 
+F 0 "R107" V 4150 5050 50  0000 C CNN
+F 1 "1k" V 4050 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 5075 50  0001 C CNN
+F 3 "~" H 4050 5075 50  0001 C CNN
+	1    4050 5075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E059B7B
+P 4050 4650
+AR Path="/5CF11B19/5E059B7B" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5E059B7B" Ref="R?"  Part="1" 
+AR Path="/5E059B7B" Ref="R105"  Part="1" 
+F 0 "R105" V 4150 4625 50  0000 C CNN
+F 1 "1k" V 4050 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3980 4650 50  0001 C CNN
+F 3 "~" H 4050 4650 50  0001 C CNN
+	1    4050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E05A400
+P 3800 4650
+AR Path="/5CF11B19/5E05A400" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5E05A400" Ref="C?"  Part="1" 
+AR Path="/5D4DB615/5E05A400" Ref="C?"  Part="1" 
+AR Path="/5E05A400" Ref="C105"  Part="1" 
+F 0 "C105" H 3850 4550 50  0000 L CNN
+F 1 "100n" H 3750 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 4500 50  0001 C CNN
+F 3 "~" H 3800 4650 50  0001 C CNN
+	1    3800 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E05AAB8
+P 3800 5075
+AR Path="/5CF11B19/5E05AAB8" Ref="C?"  Part="1" 
+AR Path="/5D4DB58B/5E05AAB8" Ref="C?"  Part="1" 
+AR Path="/5D4DB615/5E05AAB8" Ref="C?"  Part="1" 
+AR Path="/5E05AAB8" Ref="C106"  Part="1" 
+F 0 "C106" H 3850 4975 50  0000 L CNN
+F 1 "100n" H 3750 4875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 4925 50  0001 C CNN
+F 3 "~" H 3800 5075 50  0001 C CNN
+	1    3800 5075
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E074E30
+P 6400 5675
+AR Path="/5CF11B19/5E074E30" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB58B/5E074E30" Ref="#PWR?"  Part="1" 
+AR Path="/5D4DB615/5E074E30" Ref="#PWR?"  Part="1" 
+AR Path="/5E074E30" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 6400 5425 50  0001 C CNN
+F 1 "GND" H 6405 5502 50  0000 C CNN
+F 2 "" H 6400 5675 50  0001 C CNN
+F 3 "" H 6400 5675 50  0001 C CNN
+	1    6400 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J103
+U 1 1 5E08F2EB
+P 3425 4875
+F 0 "J103" H 3343 4550 50  0000 C CNN
+F 1 "Conn_01x03" H 3300 5075 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 3425 4875 50  0001 C CNN
+F 3 "~" H 3425 4875 50  0001 C CNN
+	1    3425 4875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 4875 4050 4800
+Wire Wire Line
+	4050 4925 4050 4875
+Connection ~ 4050 4875
+Wire Wire Line
+	3800 4800 3800 4875
+Connection ~ 3800 4875
+Wire Wire Line
+	3800 4875 4050 4875
+Wire Wire Line
+	3800 4925 3800 4875
+Wire Wire Line
+	4600 5275 4600 5475
+Wire Wire Line
+	4600 5475 4050 5475
+Wire Wire Line
+	3800 5475 3800 5225
+Wire Wire Line
+	4050 5225 4050 5475
+Connection ~ 4050 5475
+Wire Wire Line
+	4050 5475 3800 5475
+Wire Wire Line
+	3625 4975 3625 5325
+Wire Wire Line
+	3625 5475 3800 5475
+Connection ~ 3800 5475
+Wire Wire Line
+	3625 4775 3625 4425
+Wire Wire Line
+	3625 4375 3800 4375
+Wire Wire Line
+	4050 4375 4050 4500
+Wire Wire Line
+	3800 4500 3800 4375
+Connection ~ 3800 4375
+Wire Wire Line
+	3800 4375 4050 4375
+Wire Wire Line
+	4600 4675 4600 4375
+Wire Wire Line
+	4600 4375 4050 4375
+Connection ~ 4050 4375
+$Comp
+L Device:R R?
+U 1 1 5E229644
+P 5375 4975
+AR Path="/5CF11B19/5E229644" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5E229644" Ref="R?"  Part="1" 
+AR Path="/5E229644" Ref="R106"  Part="1" 
+F 0 "R106" V 5475 4950 50  0000 C CNN
+F 1 "1k" V 5375 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5305 4975 50  0001 C CNN
+F 3 "~" H 5375 4975 50  0001 C CNN
+	1    5375 4975
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5000 4975 5225 4975
+Wire Wire Line
+	2700 5325 3625 5325
+Connection ~ 2700 5325
+Connection ~ 3625 5325
+Wire Wire Line
+	3625 5325 3625 5475
+Wire Wire Line
+	2700 4425 3625 4425
+Connection ~ 2700 4425
+Connection ~ 3625 4425
+Wire Wire Line
+	3625 4425 3625 4375
+$Comp
+L Transistor_BJT:BD140 Q102
+U 1 1 5E283811
+P 5925 5200
+F 0 "Q102" H 6117 5246 50  0000 L CNN
+F 1 "BD140" H 6117 5155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6125 5125 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5925 5200 50  0001 L CNN
+	1    5925 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD139 Q101
+U 1 1 5E2856CC
+P 5925 4725
+F 0 "Q101" H 6117 4771 50  0000 L CNN
+F 1 "BD139" H 6117 4680 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 6125 4650 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5925 4725 50  0001 L CNN
+	1    5925 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 4925 6025 4950
+Wire Wire Line
+	5725 4725 5625 4725
+Wire Wire Line
+	5625 4725 5625 4975
+Wire Wire Line
+	5625 4975 5525 4975
+Wire Wire Line
+	5725 5200 5625 5200
+Wire Wire Line
+	5625 5200 5625 4975
+Connection ~ 5625 4975
+Wire Wire Line
+	4600 5475 5650 5475
+Wire Wire Line
+	6025 5475 6025 5400
+Connection ~ 4600 5475
+Wire Wire Line
+	6025 4525 6025 4375
+Wire Wire Line
+	6025 4375 5950 4375
+Connection ~ 4600 4375
+$Comp
+L Device:R R?
+U 1 1 5E326825
+P 5800 5475
+AR Path="/5CF11B19/5E326825" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5E326825" Ref="R?"  Part="1" 
+AR Path="/5E326825" Ref="R108"  Part="1" 
+F 0 "R108" V 5900 5450 50  0000 C CNN
+F 1 "22R" V 5800 5475 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5730 5475 50  0001 C CNN
+F 3 "~" H 5800 5475 50  0001 C CNN
+	1    5800 5475
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5950 5475 6025 5475
+$Comp
+L Device:R R?
+U 1 1 5E328B92
+P 5800 4375
+AR Path="/5CF11B19/5E328B92" Ref="R?"  Part="1" 
+AR Path="/5D4DB615/5E328B92" Ref="R?"  Part="1" 
+AR Path="/5E328B92" Ref="R104"  Part="1" 
+F 0 "R104" V 5900 4350 50  0000 C CNN
+F 1 "22R" V 5800 4375 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 5730 4375 50  0001 C CNN
+F 3 "~" H 5800 4375 50  0001 C CNN
+	1    5800 4375
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5650 4375 4600 4375
+Wire Wire Line
+	6025 4950 6400 4950
+Wire Wire Line
+	6400 4950 6400 5625
+Wire Wire Line
+	6400 5625 4325 5625
+Wire Wire Line
+	4325 5625 4325 5075
+Wire Wire Line
+	4325 5075 4400 5075
+Connection ~ 6025 4950
+Wire Wire Line
+	6025 4950 6025 5000
+Wire Wire Line
+	6400 5675 6400 5625
+Connection ~ 6400 5625
+Wire Wire Line
+	3625 4875 3675 4875
+Wire Wire Line
+	3675 4875 3675 5625
+Wire Wire Line
+	3675 5625 4325 5625
+Connection ~ 4325 5625
+Wire Wire Line
+	4050 4875 4400 4875
 $EndSCHEMATC
