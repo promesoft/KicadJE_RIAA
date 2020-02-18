@@ -1,7 +1,7 @@
 # KicadJE_RIAA
 RIAA apllifier test
 
-# Status - PCB  in the mail
+# Status - PCB delivered
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -9,11 +9,11 @@ RIAA apllifier test
 | | gerber | OK |
 | production  |   | Ordered |
 |  | produced | OK |
-|  | delivered | in the mail |
+|  | delivered | OK |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | | OK |
 | Initial Technical Test |  |  |
 | Initial Product Test |  |  |
 
