@@ -7,14 +7,14 @@ RIAA apllifier test
 | ------------- | ------------- | ------------- |
 | create material  | sch/pcb | OK  |
 | | gerber | OK |
-| production  |   | Ordered |
+| production  |   | OK |
 |  | produced | OK |
 |  | delivered | OK |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | OK |
-| Initial Technical Test |  |  |
+| Initial Inspection | | Chose different RCA |
+| Initial Technical Test |  | Different RCA does not match pins |
 | Initial Product Test |  |  |
 
 ## Secondary validation
