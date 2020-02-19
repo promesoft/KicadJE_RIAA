@@ -1,7 +1,7 @@
 # KicadJE_RIAA
 RIAA apllifier test
 
-# Status - PCB delivered
+# Status - PCB tested - bad rca footprint
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -29,6 +29,10 @@ RIAA apllifier test
 
 ## Errata
 ### Errata -
+1 - RCA footprint wrong (flip gnd and right)
+
+2 - V-GND 2 does not have resistor balance - only LED indicator as input
+
 
 ## Issues and Notes
 ### 
