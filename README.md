@@ -33,6 +33,9 @@ RIAA apllifier test
 
 2 - V-GND 2 does not have resistor balance - only LED indicator as input
 
+3 - C107, C109, C111, C112 should either not be mounted or significantly smaller (10nF ?)
+
+4 - U302B needs an 18k to GND on pin 5
 
 ## Issues and Notes
 ### 
