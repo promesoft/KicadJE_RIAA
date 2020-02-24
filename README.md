@@ -1,7 +1,7 @@
 # KicadJE_RIAA
 RIAA apllifier test
 
-# Status - PCB tested - bad rca footprint
+# Status - RIAA installed in stereo setup
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -15,7 +15,7 @@ RIAA apllifier test
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | Chose different RCA |
 | Initial Technical Test |  | Different RCA does not match pins |
-| Initial Product Test |  |  |
+| Initial Product Test |  | Working - no hum |
 
 ## Secondary validation
 | Test  | Detail | Status |
